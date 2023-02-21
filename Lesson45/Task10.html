@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Task10</title>
+    <link rel="stylesheet" href="Task10.css">
+</head>
+<body>
+<div id="div1" >
+  <h2>Введи число: <input type="number" min="0" max="100" value="1" name="number" id="number"/></h2>
+  <button type="button" name="start" id="start">Начать</button>
+</div>
+<div id="div2" hidden>
+    <h2 id="text2">Выше число <span id="span1"></span></h2>
+    <button id="btnDown">Меньше <span class="spanCurrent" id="spanDown"></span></button>
+    <button id="btnEquals">Равно <span class="spanCurrent" id="spanEquals"></span></button>
+    <button id="btnUp">Больше <span class="spanCurrent" id="spanUp"></span></button>
+    <h2 id="text3"></h2>
+</div>
+<p id="text1">Ваше число: <span id="yourNumber"></span></p>
+<script src="Task10.js"></script>
+</body>
+</html>

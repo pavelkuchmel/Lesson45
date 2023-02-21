@@ -1,0 +1,10 @@
+div{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+p{
+    position: absolute;
+    font-size: xx-small;
+    top: 0;
+}
